@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<?php wp_nav_menu( array( 'theme_location' => 'main')); ?> 
+<?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?> 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wp_menu</tabTrigger>
