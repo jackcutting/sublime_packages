@@ -1,0 +1,7 @@
+<snippet>
+   <content><![CDATA[font-family: ${1/(AR)|(AB)|(BA)|(BO)|(CH)|(CO)|(CN)|(CS)|(GA)|(GD)|(GN)|(GO)|(HE)|(IM)|(LC)|(LG)|(LS)|(MN)|(MA)|(ME)|(NY)|(PA)|(PL)|(TA)|(TN)|(TI)|(TR)|(SY)|(VE)|(SE)|(SA)|(FA)|(MO)|(\,)|_([a-zA-Z0-9\-\ ]+)_/?1:Arial:?2:'Arial Black':?3:'Book Antiqua':?4:'Bookman Old Style':?5:Charcoal:?6:Courier:?7:'Courier New':?8:'Comic Sans MS':?9:Garamond:?10:Gadget:?11:Geneva:?12:Georgia:?13:Helvetica:?14:Impact:?15:'Lucida Console':?16:'Lucida Grande':?17:'Lucida Sans Unicode':?18:Monaco:?19:'MS Sans Serif':?20:'MS Serif':?21:'New York':?22:Palatino:?23:'Palatino Linotype':?24:Tahoma:?25:'Times New Roman':?26:Times:?27:'Trebuchet MS':?28:Symbol:?29:Verdana:?30:serif:?31:sans-serif:?32:fantasy:?33:monospace:?34:, :?35:\x27$35\x27/g};${3:/* ${1:fonts } */}
+]]></content>
+   <tabTrigger>fontFamily</tabTrigger>
+   <scope>source.scss, source.scss  meta.property-list.css</scope>
+   <description>Use TI for Times etc</description>
+</snippet>

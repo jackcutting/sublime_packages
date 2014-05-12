@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<ul class="sidebar">
+	<li>
+		<h5><?php _e('Categories:'); ?></h5>
+		<ul>
+		<?php wp_list_cats(); ?>
+		</ul>
+	</li>
+	<li>
+		<h5><?php _e('Archives:'); ?></h5>
+		<ul>
+		<?php wp_get_archives('type=monthly'); ?>
+		</ul>
+	</li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sidebar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

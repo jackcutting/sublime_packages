@@ -1,0 +1,52 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Foundation 4</title>
+
+  <link rel="stylesheet" href="<?php echo site_url(); ?>assets/admin/framework/css/normalize.css" />
+  <link rel="stylesheet" href="<?php echo site_url(); ?>assets/admin/framework/css/foundation.css" />
+
+  <link rel="stylesheet" href="<?php echo site_url(); ?>assets/admin/framework/css/app.css" />
+
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.alerts.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.clearing.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.cookie.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.dropdown.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.forms.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.joyride.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.magellan.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.orbit.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.placeholder.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.reveal.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.section.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.tooltips.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.topbar.js"></script>
+  <script src="<?php echo site_url(); ?>assets/admin/framework/js/foundation/foundation.interchange.js"></script>
+  <script>
+    \$(document).foundation();
+  </script>
+</body>
+</html>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>foundation</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

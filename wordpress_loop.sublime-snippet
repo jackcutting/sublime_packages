@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+	<h1><?php the_title(); ?></h1>
+
+	<?php the_content(); ?>
+
+<?php endwhile; else: ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+<?php endif; wp_reset_query(); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>loop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

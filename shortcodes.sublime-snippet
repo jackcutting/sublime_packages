@@ -1,0 +1,161 @@
+<snippet>
+	<content><![CDATA[
+
+[one_half]
+
+<h3>One Half</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+[/one_half]
+
+[one_half_last]
+
+<h3>One Half</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+[/one_half_last]
+
+[one_third]
+
+<h3>One Third</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+[/one_third]
+
+[two_third_last]
+
+<h3>Two Third</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+
+[/two_third_last]
+
+[one_fourth]
+
+<h3>One Fourth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+[/one_fourth]
+
+[one_fourth]
+
+<h3>One Fourth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+[/one_fourth]
+
+[one_fourth]
+
+<h3>One Fourth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+[/one_fourth]
+
+[one_fourth_last]
+
+<h3>One Fourth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+[/one_fourth_last]
+
+[one_fifth]
+
+<h3>One Fifth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+[/one_fifth]
+
+[one_fifth]
+
+<h3>One Fifth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+[/one_fifth]
+
+[one_fifth]
+
+<h3>One Fifth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+[/one_fifth]
+
+[one_fifth]
+
+<h3>One Fifth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+[/one_fifth]
+
+[one_fifth_last]
+
+<h3>One Fifth</h3>
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+[/one_fifth_last]
+
+[one_sixth]
+
+<h3>One Sixth</h3>
+
+Lorem Ipsum is simply dummy text.
+
+[/one_sixth]
+
+[one_sixth]
+
+<h3>One Sixth</h3>
+
+Lorem Ipsum is simply dummy text.
+
+[/one_sixth]
+
+[one_sixth]
+
+<h3>One Sixth</h3>
+
+Lorem Ipsum is simply dummy text.
+
+[/one_sixth]
+
+[one_sixth]
+
+<h3>One Sixth</h3>
+
+Lorem Ipsum is simply dummy text.
+
+[/one_sixth]
+
+[one_sixth]
+
+<h3>One Sixth</h3>
+
+Lorem Ipsum is simply dummy text.
+
+[/one_sixth]
+
+[one_sixth_last]
+
+<h3>One Sixth</h3>
+
+Lorem Ipsum is simply dummy text.
+
+[/one_sixth_last]
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>shortcodes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

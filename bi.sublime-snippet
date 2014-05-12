@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+background-image: url('$1');
+background-repeat: no-repeat;
+background-position: top left;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scss, source.scss</scope>
+</snippet>

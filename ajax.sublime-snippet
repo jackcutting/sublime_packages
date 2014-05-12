@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+
+var ajax_load = "Loading";
+\$('.search input').live('keyup', function(){
+	\$('#result').html(ajax_load).load("URL", { 
+	});
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax_call</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

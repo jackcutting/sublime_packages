@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+add_action('init', '${1:products}_register');
+function ${1:products}_register() {
+ 
+	\$labels = array(
+		'name' 					=> _x('${2:Products}', 'post type general name'),
+		'singular_name' 		=> _x('${3:Item}', 'post type singular name'),
+		'add_new' 				=> _x('Add New', 'item'),
+		'add_new_item' 			=> __('Add New ${3:Item}'),
+		'edit_item' 			=> __('Edit ${3:Item}'),
+		'new_item' 				=> __('New ${3:Item}'),
+		'view_item'				=> __('View ${3:Item}'),
+		'search_items' 			=> __('Search'),
+		'not_found' 			=>  __('Nothing found'),
+		'not_found_in_trash' 	=> __('Nothing found in Trash'),
+		'parent_item_colon' 	=> ''
+	);
+ 
+	\$args = array(
+		'labels' 				=> \$labels,
+		'public' 				=> true,
+		'publicly_queryable' 	=> true,
+		'show_ui' 				=> true,
+		'query_var'				=> true,
+		'rewrite' 				=> true,
+		'capability_type' 		=> 'post',
+		'hierarchical' 			=> false,
+		'menu_position' 		=> null,
+		'supports' 				=> array('title','editor','thumbnail', 'custom-fields', 'page-attributes', 'revisions', 'excerpt')
+	  ); 
+ 
+	register_post_type( '${1:products}' , \$args );
+	//flush_rewrite_rules();
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>post_type</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
