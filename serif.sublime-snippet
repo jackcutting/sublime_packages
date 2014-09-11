@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>ser</tabTrigger>
     <description>CSS - font-family: serif;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

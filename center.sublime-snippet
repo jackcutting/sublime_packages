@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>cen</tabTrigger>
     <description>CSS - text-align: center;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

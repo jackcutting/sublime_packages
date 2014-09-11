@@ -8,5 +8,5 @@
 ]]></content>
 	<tabTrigger>fil</tabTrigger>
     <description>CSS - animation-fill-mode: ;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

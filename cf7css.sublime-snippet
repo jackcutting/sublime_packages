@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+span.wpcf7-not-valid-tip{
+  background: #cc3232;
+  color: #fff !important;
+  padding: 5px 10px;
+  width: 450px;
+}
+
+div.wpcf7-response-output{
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 5px 10px !important;
+}
+div.wpcf7-validation-errors{
+  background: #CC6E09;
+  color: #fff;
+}
+div.wpcf7-mail-sent-ok{
+  background: #52A32E;
+  color: #fff;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf7css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass,source.scss,source.css</scope>
+</snippet>

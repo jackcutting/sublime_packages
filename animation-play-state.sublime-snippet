@@ -8,5 +8,5 @@
 ]]></content>
 	<tabTrigger>pla</tabTrigger>
     <description>CSS - animation-play-state: ;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

@@ -14,5 +14,5 @@ $0
 ]]></content>
 	<description>Theme Head</description>
 	<tabTrigger>theme_head</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.sass</scope>
 </snippet>

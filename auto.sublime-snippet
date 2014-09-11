@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>aut</tabTrigger>
     <description>CSS - margin: 0 auto;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

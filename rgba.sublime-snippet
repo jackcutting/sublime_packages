@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>r</tabTrigger>
     <description>CSS - rgba()</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

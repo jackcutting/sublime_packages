@@ -1,6 +1,15 @@
 <snippet>
 	<content><![CDATA[
-<?php query_posts(array('cat'=> $1, 'posts_per_page' => $2, 'post_type' => '$3')); ?>
+<?php \$${1:query} = new WP_Query( array( 'post_type'=> '${2:post}', 'posts_per_page' => ${3:-1}, 'orderby' => '${4:menu_order}', 'order' => '${5:ASC}' ) ); ?>
+<?php if ( \$${1:query}->have_posts() ) : while ( \$${1:query}->have_posts() ) : \$${1:query}->the_post(); ?>
+				
+	<h1><?php the_title(); ?></h1>
+
+	<?php the_content(); ?>
+
+<?php endwhile; else: ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+<?php endif; wp_reset_query(); ?>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>query</tabTrigger>

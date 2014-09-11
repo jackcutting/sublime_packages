@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>lin</tabTrigger>
     <description>CSS - line-height: 1.5;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

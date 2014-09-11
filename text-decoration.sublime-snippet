@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>non</tabTrigger>
     <description>CSS - text-decoration: none;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

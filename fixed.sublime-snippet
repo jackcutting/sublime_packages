@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>fix</tabTrigger>
     <description>CSS - position: fixed;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>

@@ -4,5 +4,5 @@
 ]]></content>
 	<tabTrigger>rig</tabTrigger>
     <description>CSS - right: 0;</description>
-    <scope>source.scss, source.scss</scope>
+    <scope>source.sass, source.scss</scope>
 </snippet>
